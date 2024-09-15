@@ -1,0 +1,92 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 200px; /* Adjust width as needed */
+    background: #f4f4f4; /* Background color for the sidebar */
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for sidebar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #ddd; /* Background color on hover */
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+
+    background: #FF6600; /* Background color for the sidebar */
+    /* color: #fff;*/
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for sidebar */
+}
+
+.huge-title {
+    font-size: 1rem; /* Adjust this value to make the title larger */
+    font-weight: normal;
+}
+
+.bold-text {
+    font-weight: bold; /* Bold style for "WUMMS" */
+    text-decoration: underline; /* Underline style for "WUMMS" */
+    font-size: 4rem; /* Adjust this value to make the title larger */
+}
+.mit-text {
+    font-size: 2rem; /* Adjust this value to make the title larger */
+    font-weight: bold; /* Bold style for "WUMMS" */
+    text-decoration: underline; /* Underline style for "WUMMS" */
+}
+.wumms-text {
+    font-size: 6rem; /* Adjust this value to make the title larger */
+    font-weight: bold; /* Bold style for "WUMMS" */
+    text-decoration: underline; /* Underline style for "WUMMS" */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
